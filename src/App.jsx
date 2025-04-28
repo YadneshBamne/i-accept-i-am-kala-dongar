@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import LiquidChrome from "./bits/LiquidChrome";
+import LiquidChrome from "./bits/liquidchrome";
 import Stepper, { Step } from "./bits/Stepper";
 import CircularGallery from "./bits/circulargallery";
 import TiltedCard from "./bits/tiltedcard";
