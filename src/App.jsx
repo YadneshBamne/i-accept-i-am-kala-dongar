@@ -5,7 +5,6 @@ import CircularGallery from "./bits/circulargallery";
 import TiltedCard from "./bits/tiltedcard";
 import "./App.css";
 import "./bits/reveal.css";
-import { Step } from "./bits/stepper";
 
 const App = () => {
   const [name, setName] = useState("");
