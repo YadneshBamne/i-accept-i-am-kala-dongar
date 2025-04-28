@@ -42,13 +42,13 @@ const App = () => {
       {!showFinalScreen && (
         <>
           {/* Liquid Background */}
-          <div className="absolute inset-0 z-0">
-            <LiquidChrome
+          <div className="absolute inset-0 z-0 bg-gradient-to-b from-[#C5C9A4] to-[#363732] t">
+            {/* <LiquidChrome
               baseColor={[0.1, 0.1, 0.1]}
               speed={0.4}
               amplitude={0.6}
               interactive={true}
-            />
+            /> */}
           </div>
 
           {/* Centered Stepper */}
@@ -64,16 +64,15 @@ const App = () => {
               }}
               backButtonText="Previous"
               nextButtonText="Next"
-              className="backdrop-blur-md bg-white/30 p-8 rounded-2xl shadow-lg max-w-md w-full"
+              className="backdrop-blur-md bg-[#020202] p-8 rounded-2xl shadow-lg max-w-md w-full"
             >
               {/* Step 1 */}
               <Step>
                 <h2 className="text-2xl text-white font-bold mb-4">
-                  WELCOME TO THE IMMERSIVE EXPERIENCE OF SOME DIABOLICAL
+                  WELCOME TO THE IMMERSIVE EXPERIENCE OF SOME DIABOLICAL SHIT
                 </h2>
-                <p>
-                  Specially Made for my Friend in need is a Friend in deed wala
-                  DOST
+                <p className="text-white">
+                  Specially Made for my KALA DONGAR friend as he might've seen and accepted from the domain name
                 </p>
               </Step>
 
@@ -165,7 +164,11 @@ const App = () => {
           {/* Section 1 with CircularGallery */}
           <div className="w-full flex justify-end px-16 pt-12">
             <h2 className="text-8xl font-extrabold">SOME MEMORIES</h2>
+            
           </div>
+          <p className="text-lg uppercase text-gray-400 items-end flex justify-end pr-19">
+                THESE ARE WILD TBH
+              </p>    
           <section className="flex items-center justify-center min-h-screen w-full border-b border-gray-500">
             <div className="relative h-[600px] w-full flex items-center justify-center mb-52">
               <CircularGallery
@@ -198,7 +201,7 @@ const App = () => {
                 showTooltip={true}
                 displayOverlayContent={true}
                 overlayContent={
-                  <p className="text-4xl font-extrabold tilted-card-demo-text">
+                  <p className="text-4xl font-extrabold tilted-card-demo-text select-none">
                     OPTION 1
                   </p>
                 }
@@ -217,7 +220,7 @@ const App = () => {
                 showTooltip={true}
                 displayOverlayContent={true}
                 overlayContent={
-                  <p className="text-4xl backdrop-blur-2xl text-[#0C1618] font-extrabold tilted-card-demo-text">
+                  <p className=" select-none text-4xl backdrop-blur-2xl text-[#0C1618] font-extrabold tilted-card-demo-text">
                     OPTION 2
                   </p>
                 }
@@ -236,7 +239,7 @@ const App = () => {
                 showTooltip={true}
                 displayOverlayContent={true}
                 overlayContent={
-                  <p className="text-4xl font-extrabold text-[#37423D] tilted-card-demo-text">
+                  <p className=" select-none text-4xl font-extrabold text-[#37423D] tilted-card-demo-text">
                     OPTION 3
                   </p>
                 }
@@ -253,9 +256,7 @@ const App = () => {
           >
             <div className="w-full max-w-4xl px-6">
               <p className="text-start text-white text-xl md:text-5xl tracking-wider font-mono uppercase font-bold leading-relaxed">
-                When does a man die? When he is hit by a bullet? No! When he suffers a disease?
-                No! When he ate a soup made out of a poisonous mushroom?
-                No! A man dies when he is forgotten!
+                NOW LET'S GET TO THE POINT, WELL WHATEVER HAPPENED THAT DAY WAS TOTALLY OUT OF CONTROL AND WE BOTH WERE COMPLETE FUCKED UP BEINGS AT ZHAT TIME, I LET THIS GO AND MAKE SURE WE BOTH WONT BEHAVE LIKE A COMPLETE MORONS NEXT TIME.
               </p>
             </div>
           </section>
