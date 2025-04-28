@@ -1,0 +1,22 @@
+
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Slide up animation for final screen */
+@keyframes slideInUp {
+  from { opacity: 0; transform: translateY(100%); -webkit-transform: translateY(100%); -moz-transform: translateY(100%); -ms-transform: translateY(100%); -o-transform: translateY(100%); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Classes */
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.animate-slideInUp {
+  animation: slideInUp 1s ease-out;
+}
