@@ -328,14 +328,13 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: `./6.jpg`, text: 'WEIRD AHH GRIN' },
-      { image: `./1.jpg`, text: 'TF you lookin at?' },
-      { image: `./2.jpg`, text: 'Weird ass smirk' },
-      { image: `./5.jpg`, text: 'RIGHT BELOW 💀' },
-      { image: `./3.jpg`, text: 'That`s how he impressed Sara' },
-      { image: `./7.jpg`, text: 'BHIGE HOTH TERE...' },
-      { image: `./8.jpg`, text: 'TF IS THAT POSE' },
-      { image: `./4.jpg`, text: 'Again WhereTF he lookin at?' },
+      { image: `./i1.jpg`, text: '' },
+      { image: `./i2.jpg`, text: '' },
+      { image: `./i3.jpg`, text: '' },
+      { image: `./i4.jpg`, text: '' },
+      { image: `./i5.jpg`, text: '' },
+      { image: `./i6.jpg`, text: '' },
+      { image: `./i7.jpg`, text: '' },
       
       
     ]
@@ -455,7 +454,7 @@ class App {
 export default function CircularGallery({
   items,
   bend = 3,
-  textColor = "#ffffff",
+  textColor = "#010101",
   borderRadius = 0.05,
   font = "bold 30px DM Sans"
 }) {
